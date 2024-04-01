@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Ernter a numebr: ");
         int number = scanner.nextInt();
 
-        System.out.println("The droot of "+number+" is "+droot(number));
+        System.out.println("The droot of "+number+" is "+droot(droot(number)));
 
     }
 
