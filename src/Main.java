@@ -12,4 +12,16 @@ public class Main {
 
     }
 
+    public static int droot(int number) {
+        int sum = 0;
+        int digit = 0;
+        while(number > 0) {
+            digit = number % 10;
+            number = number / 10;
+            sum = sum + digit;
+        }
+
+        return sum;
+    }
+
 }
